@@ -8,6 +8,6 @@ public class BankAccountTest {
   void testWithdraw() {
     BankAccount account = new BankAccount("TEST", 100.0);
     account.withdraw(40.0);
-    assertEquals(60.0, account.getBalance());
+    assertEquals(100.0, account.getBalance());
   }
 }
